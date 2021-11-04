@@ -11,8 +11,7 @@ public class Bank {
 
         Client ryzhkovatatyana = new Client ("Рыжкова Татьяна");
         Account ryzhkovatatyanaAccount = personAccount.get(ryzhkovatatyana);
-        // Client tanyaryzhkova=new Client("Рыжкова Татьяна");
-        System.out.println(ryzhkovatatyanaAccount);
+        System.out.println(ryzhkovatatyanaAccount.scorenumber);
     }
 
         private static Map<Client, Account> getPersonAccount() {
